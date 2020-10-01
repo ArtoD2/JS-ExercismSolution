@@ -4,7 +4,6 @@
 //
 
 export const isPangram = (sentence) => {
-   
   let alph = "abcdefghijklmnopqrstuvwxyz"
   let cnt = 0
   let sentencelc = sentence.toLowerCase()

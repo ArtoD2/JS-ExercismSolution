@@ -4,6 +4,7 @@
 //
 
 export const convert = (number) => {
+
   let speak = ""
     if (number % 3 === 0 && number % 5 === 0 && number % 7 === 0){
       speak += "PlingPlangPlong"

@@ -4,7 +4,6 @@
 //
 
 export const reverseString = (str) => {
-
   let ing = str.split("").reverse().join("");
   return ing
 };
